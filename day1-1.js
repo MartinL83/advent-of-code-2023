@@ -1,5 +1,4 @@
-const input = `
-29lzrxseven
+const input = `29lzrxseven
 9nnqljsixkzphvtmtr
 five73kskpfgbkcltwoccvf
 fiveq7
@@ -1001,6 +1000,9 @@ kfjzhdtgkjtqthree7pvmxs
 3eighteightllkbxkbs9zgznxtj8lfflcst
 `;
 
+/**
+ * Day 1 - Challenge 1
+ */
 const res = input.split('\n')
   .map(str => str.replace(/[a-z]/g, '')
     .split(''))
